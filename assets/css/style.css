@@ -67,13 +67,45 @@
      height: 16px;
  }
 
- .header--menu{
-    margin-left: 50px;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
+ .header--menu {
+     margin-left: 50px;
+     width: 24px;
+     height: 24px;
+     cursor: pointer;
  }
 
- .header--menu img{
-    width: 100%;
+ .header--menu img {
+     width: 100%;
+ }
+
+ section.banner {
+     background-image: url('../images/complementos/bg.jpg');
+     background-size: cover;
+     background-position: center;
+     padding-top: 90px;
+     padding-bottom: 90px;
+ }
+
+ section.banner h1 {
+     font-size: 4.5rem;
+     font-weight: bold;
+     font-family: 'Oswald', sans-serif;
+     margin: 0;
+     margin-bottom: 30px;
+     line-height: 100px;
+ }
+
+ .banner--images {
+     margin-top: 60px;
+ }
+
+ .banner--images img:not(:last-child){
+    margin-right: 15px;
+ }
+
+ .banner--images img {
+     border-radius: 50%;
+     border: 5px solid #117050;
+     width: 150px;
+     height: 150px;
  }
